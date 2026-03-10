@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stap Dream</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f6f2ff;
+}
+
+/* HEADER */
+
+header{
+background:linear-gradient(90deg,#3b0a57,#7b2cbf);
+color:white;
+padding:25px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* NAV */
+
+nav{
+background:#5a189a;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 18px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#e0aaff;
+}
+
+/* HERO */
+
+.hero{
+padding:90px;
+text-align:center;
+background:linear-gradient(to right,#3b0a57,#9d4edd);
+color:white;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+button{
+background:#c77dff;
+border:none;
+padding:14px 28px;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+color:white;
+transition:0.3s;
+}
+
+button:hover{
+background:#9d4edd;
+transform:scale(1.05);
+}
+
+/* SECTIONS */
+
+.container{
+padding:50px;
+}
+
+/* CARDS */
+
+.services{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:18px;
+width:260px;
+border-radius:12px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card h3{
+color:#5a189a;
+}
+
+/* TEAM */
+
+.team{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.member{
+background:white;
+padding:22px;
+margin:18px;
+border-radius:12px;
+text-align:center;
+width:230px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.member:hover{
+transform:scale(1.05);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.member h3{
+color:#5a189a;
+}
+
+/* CONTACT */
+
+.contact p{
+font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+background:#3b0a57;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+footer hr{
+border:1px solid #9d4edd;
+width:60%;
+margin:20px auto;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Stap Dream</h1>
+<p>Transformando ideas en negocios rentables</p>
+</header>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#problema">Problema</a>
+<a href="#solucion">Solución</a>
+<a href="#equipo">Equipo</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+<h1>Emprendimiento para todos</h1>
+<p>Ayudamos a personas con pocos recursos a crear negocios sostenibles.</p>
+<button>Descubrir más</button>
+</section>
+
+<section class="container" id="problema">
+<h2 style="text-align:center;">Barreras para Emprender</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Financiación Limitada</h3>
+<p>Muchos emprendedores tienen poco acceso a capital y apoyo financiero.</p>
+</div>
+
+<div class="card">
+<h3>Recursos Escasos</h3>
+<p>El acceso a educación y herramientas empresariales es limitado.</p>
+</div>
+
+<div class="card">
+<h3>Falta de Estructura</h3>
+<p>Sin un método claro, emprender puede ser confuso y arriesgado.</p>
+</div>
+
+</div>
+</section>
+
+<section class="container" id="solucion">
+<h2 style="text-align:center;">Nuestra Solución</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Guía en 5 pasos</h3>
+<p>Un proceso estructurado para validar ideas de negocio fácilmente.</p>
+</div>
+
+<div class="card">
+<h3>Herramientas con IA</h3>
+<p>Asistentes inteligentes que ayudan a crear planes de negocio efectivos.</p>
+</div>
+
+<div class="card">
+<h3>Ideas de Negocio</h3>
+<p>Más de 50 ideas de negocio con baja inversión inicial.</p>
+</div>
+
+</div>
+</section>
+
+<section class="container" id="equipo">
+<h2 style="text-align:center;">Nuestro Equipo</h2>
+
+<div class="team">
+
+<div class="member">
+<h3>Paula Esparza</h3>
+<p><b>Fundadora y Marketing</b></p>
+<p>Lidera Stap Dream y dirige las estrategias de comunicación y crecimiento.</p>
+</div>
+
+<div class="member">
+<h3>Sharit Tique</h3>
+<p><b>Diseñador Multimedia</b></p>
+<p>Encargado de crear contenido visual, multimedia y experiencias digitales.</p>
+</div>
+
+<div class="member">
+<h3>Andres Sierra</h3>
+<p><b>Animador y Programador</b></p>
+<p>Desarrolla animaciones y soluciones tecnológicas para la plataforma.</p>
+</div>
+
+<div class="member">
+<h3>Anderson Sarmiento</h3>
+<p><b>Ilustrador y Diseñador Gráfico</b></p>
+<p>Diseña ilustraciones, identidad visual y elementos gráficos del proyecto.</p>
+</div>
+
+</div>
+</section>
+
+<section class="container contact" id="contacto">
+<h2 style="text-align:center;">Contacto</h2>
+
+<p style="text-align:center;">📧 contacto@stapdream.org</p>
+<p style="text-align:center;">📞 +34 900 000 000</p>
+<p style="text-align:center;">🌐 stapdream.org</p>
+
+</section>
+
+<footer>
+
+<h3>Stap Dream</h3>
+<p>Construyendo un futuro más inclusivo y próspero.</p>
+
+<hr>
+
+<p>Proyecto desarrollado por:</p>
+
+<p>
+Paula Esparza • Sharit Tique • Andres Sierra • Anderson Sarmiento
+</p>
+
+<p style="margin-top:15px;">
+© 2026 Stap Dream
+</p>
+
+</footer>
+
+</body>
+</html>
